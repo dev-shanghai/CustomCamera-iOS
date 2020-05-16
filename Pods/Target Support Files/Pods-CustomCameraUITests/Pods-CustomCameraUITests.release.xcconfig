@@ -1,0 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ABVideoRangeSlider-SWIFT-5" "${PODS_CONFIGURATION_BUILD_DIR}/Permission" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftGifOrigin" "${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ABVideoRangeSlider-SWIFT-5/ABVideoRangeSlider_SWIFT_5.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Permission/Permission.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewController.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "ABVideoRangeSlider_SWIFT_5" -framework "Permission" -framework "SwiftGifOrigin" -framework "TOCropViewController" -weak_framework "Speech"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

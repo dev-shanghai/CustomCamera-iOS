@@ -1,0 +1,39 @@
+PODS:
+  - ABVideoRangeSlider-SWIFT-5 (1.0.0)
+  - Permission/Camera (3.1.2):
+    - Permission/Core
+  - Permission/Core (3.1.2)
+  - Permission/MediaLibrary (3.1.2):
+    - Permission/Core
+  - Permission/Microphone (3.1.2):
+    - Permission/Core
+  - Permission/Photos (3.1.2):
+    - Permission/Core
+  - SwiftGifOrigin (1.7.0)
+  - TOCropViewController (2.5.2)
+
+DEPENDENCIES:
+  - ABVideoRangeSlider-SWIFT-5
+  - Permission/Camera
+  - Permission/MediaLibrary
+  - Permission/Microphone
+  - Permission/Photos
+  - SwiftGifOrigin
+  - TOCropViewController
+
+SPEC REPOS:
+  trunk:
+    - ABVideoRangeSlider-SWIFT-5
+    - Permission
+    - SwiftGifOrigin
+    - TOCropViewController
+
+SPEC CHECKSUMS:
+  ABVideoRangeSlider-SWIFT-5: d0c232bb39a83571d53ca22bff0d2c0f5103491c
+  Permission: 4821359fb4d4367fb59aa16df38fbba5722ac842
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+  TOCropViewController: e9da34f484aedd4e5d5a8ab230ba217cfe16c729
+
+PODFILE CHECKSUM: 47a81830c88f9efad439cc93d2edabeda2b365c0
+
+COCOAPODS: 1.8.4
